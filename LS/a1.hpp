@@ -12,12 +12,10 @@
 #include <ap_fixed.h>
 typedef ap_fixed<22,13> lets;
 #endif
-// solution3 22 bit integer and 13 bit decimal values support  
 #ifdef solution4
 #include <ap_fixed.h>
 typedef ap_fixed<18,9> lets1;
 #endif
-// solution4 18 bit integer and 9 bit decimal values support 
 struct axis_data
 {
 	float data;

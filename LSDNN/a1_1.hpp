@@ -7,17 +7,15 @@
 // solution2 half float type
 #ifdef solution2
 #endif
-// solution3 22 and 13 integer and decimal values resp.
+
 #ifdef solution3
 #include <ap_fixed.h>
 typedef ap_fixed<22,13> lets;
 #endif
-// solution4 32 and 8 integer and decimal values resp.
 #ifdef solution4
 #include <ap_fixed.h>
 typedef ap_fixed<32,8> lets1;
 #endif
-// solution5 24 and 8 integer and decimal values resp.
 #ifdef solution5
 #include <ap_fixed.h>
 typedef ap_fixed<24,8> lets2;
